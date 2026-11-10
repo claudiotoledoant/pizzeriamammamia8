@@ -1,0 +1,85 @@
+:root {
+  --italian-green: #008c45;
+  --italian-white: #f4f1ea;
+  --italian-red: #cd212a;
+  --warm-dark: #1c1917;
+  --gold-accent: #d97706;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--italian-white);
+  color: var(--warm-dark);
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+/* Navbar Italiano */
+.italian-navbar {
+  background-color: var(--warm-dark) !important;
+  border-bottom: 4px solid var(--italian-green);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.italian-brand {
+  font-size: 1.8rem;
+  color: #fff !important;
+  letter-spacing: 1px;
+}
+
+.italian-brand span {
+  color: var(--italian-red);
+}
+
+/* Botones personalizados */
+.btn-italian-red {
+  background-color: var(--italian-red);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-italian-red:hover {
+  background-color: #a71820;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.btn-italian-green {
+  background-color: var(--italian-green);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-italian-green:hover {
+  background-color: #006b34;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Tarjetas y Contenedores */
+.italian-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.tricolore-bar {
+  height: 5px;
+  background: linear-gradient(
+    to right,
+    var(--italian-green) 33.3%,
+    #ffffff 33.3%,
+    #ffffff 66.6%,
+    var(--italian-red) 66.6%
+  );
+  border-radius: 4px 4px 0 0;
+}
